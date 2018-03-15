@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+body{
+    background-color: #FFFFFF;
+
+}
+.acceder{
+    border: 2px solid;
+    background-color: powderblue;
+    height: 460px;
+    width: 46%;
+    text-align: center;
+    margin: 12% auto;
+
+}
+.logo-image{
+    height: 20%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+
+}
+#clave, #usuario{
+    display: block;
+    margin-left: 34%;
+    margin-top: 3%;
+    width: 32%;
+    border-color: black;
+    border-style: inset;
+    margin-bottom: 2%;
+    border-radius: 3px;
+}
+.footer{
+    max-width: 319px;
+    margin: 0 auto;
+
+}
+#acceder_boton{
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    height: 40px;
+    width: 18%;
+    text-align: center;
+    cursor: pointer;
+}
+#acceder_boton:hover{
+    background-color: white;
+    color: black;
+}
+.rojo{
+    color: red;
+}
+.contenedor_principal{
+
+    margin: auto auto;
+    height: 100%;
+}
+.menu{
+    background-color: #e1dede;
+    height: 70px;
+    padding: 0 150px 0 150px;
+
+
+}
+.links{
+    text-align: center;
+}
+.links .menu_link{
+    list-style: none;
+    display: inline-flex;
+    line-height: 75px;
+    font-size: 18px;
+
+
+}
+.links .menu_link li{
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+.links .menu_link li:hover{
+    color: red;
+}
+.titulo{
+   text-align: center;
+}
+.cabecera{
+    text-align: center;
+    background-color: powderblue;
+    width: 100%;
+}
+#logo{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.tabla{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    max-width: 1044px;
+    width: 100%;
+}
+table{
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 7%;
+    margin-bottom: 30%;
+}
+#usuarios{
+    border-collapse: collapse;
+    width: 100%;
+}
+#usuarios #user{
+    padding-left: 3%;
+
+}
+#usuarios td{
+    width: 89%;
+
+}
+#usuarios td, #usuarios th {
+    text-align: left;
+    font-size: 18px;
+    border: 1px solid ;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: #7d7d7d;
+
+    padding: 8px;
+}
+#usuarios tr:nth-child(even){background-color: #f2f2f2;}
+
+#usuarios tr:hover {background-color: #ddd;}
+#usuarios th {
+    font-size: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 0%;
+    background-color: white;
+    color: black;
+}
+.alert{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+.activo{
+    color: green;
+}
+
+.activo:hover{
+    color: red;
+}
+.editar{
+
+    width: 500px;
+    margin: 50px auto;
+
+
+}
+.inactivo{
+    color: red;
+}
+.inactivo:hover{
+    color: green;
+}
+
+label {
+    display: block;
+
+}
+.btn {
+    float: right;
+    display: block;
+    color: whitesmoke;
+    background-color: black;
+    width: 95%;
+    margin-top: 2%;
+}
+.edit {
+    margin: 1.4em 0;
+}
+.edit label {
+    display: block;
+    width: 100%;
+    float: left;
+}
+.btn:hover{
+    color: black;
+    background-color: whitesmoke;
+    border-color: black;
+}
+.centr{
+    margin-left: 20%;
+}
+legend{
+    text-align: center;
+}
+.oculto{
+    display: none;
+}
+.edito input{
+width: 100%;
+    margin-bottom: 3%;
+}
+.editarNoticia{
+    width: 1044px;
+    margin: 50px auto;
+}
+.editFecha{
+    margin-bottom: 3%;
+    display: inline-flex;
+}
+input[type=date] {
+    width: 100%;
+}
+.editFecha div{
+    width: 250px;
+}
+textarea{
+    width: 100%;
+}
+.btn-vol {
+    display: block;
+    color: black;
+    background-color: whitesmoke;
+    width: 95%;
+    margin-top: 2%;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid black;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-vol:hover{
+    color: whitesmoke;
+    background-color: black;
+    border-color: black;
+}
+.circulos{
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 36%;
+    display: inline-flex;
+    height: 460px;
+}
+.circ{
+    font-size: 100px;
+    margin-right: 5%;
+}
+.circ a:hover{
+    background-color: gainsboro;
+    border: 2px solid;
+    border-radius: 43px;
+}
